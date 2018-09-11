@@ -1,0 +1,68 @@
+#a h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#b h1 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+#c h1,
+#d h1 {
+  text-align: center;
+  padding-top: 55px;
+}
+
+#e,
+#f,
+#g,
+#h {
+  float: left;
+  display: inline;
+}
+
+#e h1,
+#f h1,
+#g h1,
+#h h1 {
+  text-align: center;
+  padding-top: 120px;
+}
+
+#i {
+  float: left;
+
+}
+
+#i h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  #b {
+    float: left;
+  }
+
+  #b h1 {
+    padding-top: 280px;
+  }
+
+  #c {
+    float: left;
+  }
+
+  #d {
+    float: left;
+  }
+
+  #c h1,
+  #d h1 {
+    padding-top: 85px;
+  }
+
+  #i h1 {
+    padding-top: 65px;
+  }
+}
