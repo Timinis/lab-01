@@ -1,0 +1,30 @@
+* {
+  color: blue;
+}
+
+body {
+  width: 482px;
+}
+
+
+div {
+  border: 0.25px solid teal;
+}
+
+
+@media only screen and (min-width: 481px) {
+  body {
+    width: 965px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  * {
+    color: red;
+  }
+
+  div {
+    border: 0.25px solid maroon;
+    background-color: pink;
+  }
+}
