@@ -1,37 +1,17 @@
 #a {
-
-  height: 75px;
-  width: 480px;
   background-color: cyan;
 }
 
 #b {
-
-  height: 150px;
-  width: 480px;
   background-color: pink;
 }
 
-#c,
-#d {
-  height: 125px;
-  width: 480px;
-}
-
 #c {
-  background-color: blueviolet
+  background-color: blueviolet;
 }
 
 #d {
   background-color: chartreuse;
-}
-
-#e,
-#f,
-#g,
-#h {
-  height: 250px;
-  width: 240px;
 }
 
 #e {
@@ -39,11 +19,11 @@
 }
 
 #f {
-  background-color: burlywood
+  background-color: burlywood;
 }
 
 #g {
-  background-color: seagreen
+  background-color: seagreen;
 }
 
 #h {
@@ -51,44 +31,47 @@
 }
 
 #i {
-  height: 80px;
-  width: 480px;
   background-color: lightyellow;
 }
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 481px) {
   #a {
-
-    height: 100px;
-    width: 960px;
+    background-color: #871de8;
   }
 
   #b {
-
-    height: 600px;
-    width: 200px;
+    background-color: #b111ac;
   }
 
-  #c,
+  #c {
+    background-color: #c7cf45;
+  }
+
   #d {
-
-    height: 200px;
-    width: 380px;
+    background-color: #ceb29d;
   }
 
-  #e,
-  #f,
-  #g,
+  #e {
+    background-color: #06d486;
+  }
+
+  #f {
+    background-color: #29e6d0;
+  }
+
+  #g {
+    background-color: #48b709;
+  }
+
   #h {
-    height: 250px;
-    width: 190px;
+    background-color: #83c920;
   }
 
   #i {
-    height: 150px;
-    width: 760px;
+    background-color: #c07eb3;
   }
+}
 
+@media only screen and (min-width: 768px) {
   #a {
     background-color: #7d2455;
   }
@@ -124,5 +107,4 @@
   #i {
     background-color: #e6b108;
   }
-
 }
